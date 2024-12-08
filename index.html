@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worker Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Worker Registration</h1>
+    <form action="#" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" required>
+
+      <label for="passward">Passward</label>
+      <input type="password" name="passward" id="passward" required>
+
+      <button type="submit">Register</button>
+      <button class="reset-btn" type="reset">Reset</button>
+    </form>
+    <div id="message"></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
